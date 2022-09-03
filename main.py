@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 from lcd_tools import LCD
 import network_tools
-import time
-import os
 import signal
 
 # Settings
