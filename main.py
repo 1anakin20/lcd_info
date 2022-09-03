@@ -22,9 +22,11 @@ def shutdown(signal, frame):
     lcd.new_screen()
     exit(0)
 
+
 def is_connected():
     ip = network_tools.get_ip()
     return ip != '127.0.0.1'
+
 
 def main():
     signal.signal(signal.SIGTERM, shutdown)

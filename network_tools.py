@@ -1,6 +1,7 @@
 import socket
 import os
 
+
 def get_network_ssid():
     return os.popen('sudo iwgetid -r').read()
 
