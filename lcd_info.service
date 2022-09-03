@@ -1,0 +1,10 @@
+[Unit]
+Description=Shows information on the connected i2c lcd like the IP address and SSID of the connected network
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/usr/bin/python3 [path to lcd_info/main.py]
+
+[Install]
+WantedBy=multi-user.target
