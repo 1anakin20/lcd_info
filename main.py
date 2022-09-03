@@ -9,9 +9,6 @@ import signal
 network_interface = 'wlan0'
 max_connection_fails = 0
 connection_timeout_seconds = 30
-# Adhoc network settings
-adhoc_ssid = ''
-adhoc_password = ''
 
 running = True
 
